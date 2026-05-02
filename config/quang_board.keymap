@@ -1,0 +1,27 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+
+            bindings = <
+
+/* Row 0 */
+&kp ESC  &kp 1  &kp 2  &kp 3  &kp 4  &kp 5  &kp 6  &kp 7  &kp 8  &kp 9  &kp 0  &kp BSPC
+
+/* Row 1 */
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLASH
+
+/* Row 2 (thiếu 1 slot) */
+&kp CAPS &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp NONE &kp ENTER
+
+/* Row 3 (gắn Bluetooth ở cuối) */
+&kp LSHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp UP &bt BT_NXT
+
+/* Row 4 (nhiều slot trống) */
+&kp LCTRL &kp LGUI &kp LALT &kp SPACE &kp NONE &kp NONE &kp NONE &kp NONE &kp LEFT &kp DOWN &kp RIGHT &kp NONE
+
+            >;
+        };
+    };
+};
