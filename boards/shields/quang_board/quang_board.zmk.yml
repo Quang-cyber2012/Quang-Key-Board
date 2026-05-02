@@ -15,7 +15,6 @@ type: shield
 features:
   - keys
   - studio  # Remove this line if your keyboard will not support ZMK Studio
-
 requires:
   - pro_micro
   
