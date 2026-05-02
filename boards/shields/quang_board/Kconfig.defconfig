@@ -1,0 +1,6 @@
+if SHIELD_QUANG_BOARD
+
+config ZMK_KEYBOARD_NAME
+    default "quang_board"
+
+endif # SHIELD_QUANG_BOARD
