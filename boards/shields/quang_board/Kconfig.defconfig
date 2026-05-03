@@ -1,7 +1,4 @@
-config SHIELD_QUANG_BOARD
-    def_bool y
-if SHIELD_QUANG_BOARD
-
+ if SHIELD_QUANG_BOARD
 config ZMK_KEYBOARD_NAME
     default "quang_board"
 
