@@ -1,10 +1,8 @@
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-  projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-  self:
-    path: config
+name: Build ZMK firmware
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
+    
