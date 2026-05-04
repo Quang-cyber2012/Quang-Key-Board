@@ -24,5 +24,6 @@
                     <&gpio0 17 GPIO_ACTIVE_LOW>,
                     <&gpio0 18 GPIO_ACTIVE_LOW>,
                     <&gpio0 19 GPIO_ACTIVE_LOW>;
+                    <&gpio0 20 GPIO_ACTIVE_LOW>;
     };
 };
