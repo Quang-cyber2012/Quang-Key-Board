@@ -1,3 +1,0 @@
-config SHIELD_QUANG_BOARD
-    def_bool y
-    
