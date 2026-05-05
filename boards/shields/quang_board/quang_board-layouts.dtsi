@@ -1,4 +1,4 @@
-#include "quang_board-layouts.dtsi"
+#include "quang_board.dtsi"
 
 / {
     default_layout: default_layout {
