@@ -1,0 +1,3 @@
+#include <behaviors/key_press.dtsi>
+#include <behaviors/bluetooth.dtsi>
+#include <behaviors/studio_unlock.dtsi>
